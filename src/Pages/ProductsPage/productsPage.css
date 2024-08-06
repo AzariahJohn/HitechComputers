@@ -1,0 +1,120 @@
+.products-outer-container{
+    background-color: #fffff4;
+    padding: 0px 0px 20px 0px;
+}
+
+.products-content-container{
+    padding: 0px 0px 30px 0px;
+}
+
+.search-bar-container{
+    /* background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px); */
+    padding: 80px 30px 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 0px;
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+    background-color: rgba(117, 91, 91, 0.377);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.search-button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(153, 153, 153);
+    border-right: 1px solid rgb(153, 153, 153);
+}
+
+.products-search-bar{
+    width: 300px;
+    height: 40px;
+    padding: 0px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(153, 153, 153);
+    border-left: 1px solid rgb(153, 153, 153);
+}
+
+.all-products-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    /* background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px); */
+}
+
+.product-card{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.product-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.image-gradient-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.product-name,
+.product-price {
+    z-index: 3;
+    color: rgb(255, 255, 255);
+}
+
+.product-name{
+    margin-bottom: 2px;
+}
+
+.product-price{
+    font-size: 12px;
+    color: rgb(204, 204, 204);
+}
+
+@media screen and (max-width: 800px){
+    
+}

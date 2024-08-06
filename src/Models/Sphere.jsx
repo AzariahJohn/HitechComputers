@@ -3,6 +3,6 @@ import './sphere.css'
 
 export default function App() {
   return (
-    <Spline scene="https://draft.spline.design/AXx07ZbO6h2zGg4h/scene.splinecode" className='sphere-threed'/>
+    <Spline scene="https://draft.spline.design/ACMmM5gdTTpf11Jx/scene.splinecode" className='sphere-threed'/>
   );
 }
