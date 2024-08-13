@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import './aboutPage.css'
 import RightImage from '../../Images/bg1.jpg'
+import Footer from '../../Components/Footer/Footer'
 
 function AboutPage() {
   return (
@@ -31,8 +32,25 @@ function AboutPage() {
         </div>
       </div>
       <div className="about-second-container">
-        Second-container
+        <div className="abt-sec-container-wrapper">
+          <h1 className="abt-sec-container-title">The Industry</h1>
+          <p className="abt-sec-continer-description">Refurbished servers and networking 
+            equipment save money while maintaining high quality and flexibility. We offer reliable, 
+            customizable products at competitive prices, backed by rigorous testing. By choosing 
+            pre-owned IT equipment, you not only reduce costs but also support environmental 
+            goals of reducing, recycling, and reusing.
+          </p>
+        </div>
+        <div className="abt-sec-container-wrapper">
+          <h1 className="abt-sec-container-title">Our Product</h1>
+          <p className="abt-sec-continer-description">We stock a wide range of genuine refurbished 
+            and used parts for servers, desktops, and notebooks from major OEMs like Dell, HP, and IBM. 
+            Offering 50-80% savings, we provide strategic sourcing and procurement to reduce supply chain costs. 
+            Our commitment to excellent customer service ensures long-term support and cost-effective solutions.
+          </p>
+        </div>
       </div>
+      <Footer />
     </div>
   )
 }

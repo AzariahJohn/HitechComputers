@@ -1,0 +1,50 @@
+.service-page-mods{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 120px 30px 30px 30px;
+}
+
+.services-card{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgba(250, 235, 215, 0.4);
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    flex: 1 1 200px;
+    height: 120px;
+    transition: all 0.5s ease;
+}
+
+.our-services-title{
+    background-color: rgb(65, 22, 22);
+    padding: 20px 30px;
+    margin-top: 60px;
+    color: antiquewhite;
+    font-family: "Poppins", sans-serif;
+}
+
+.margin-top-abt-ctr{
+    margin-top: 0px !important; 
+}
+
+.services-card:hover{
+    background-color: grey;
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1000px){
+    .services-card{
+        flex: 1 1 120px;
+    }
+}
