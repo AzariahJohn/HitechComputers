@@ -6,6 +6,7 @@ import './recyclerPage.css'
 import FourthImg from '../../Images/service.jpg'
 import Recovery from '../../Images/recovery.jpg'
 import Hardware from '../../Images/hardware.jpg'
+import Footer from '../../Components/Footer/Footer'
 
 function RecyclerPage() {
   return (
@@ -15,8 +16,8 @@ function RecyclerPage() {
           <div className="fourth-container-card">
             <div className="fourth-left-content">
               <h1 className="fourth-title">Recycling Electronic Waste.</h1>
-              <p className="fourth-description-recyc">Hitech Electronic Waste Recycler India Private Limited's policy goal is to promote electronics reuse such that a significant number of good useable IT equipment can be collected and refurbished and made available to others in need of all electronic recycling legislation. Electronics reuse has good local 'green collar' job creation potential. Newer IT equipment is diverted from collection streams so it can be refurbished and put back in use by schools, nonprofit charities, libraries, and low-income families - rather than all the material collected going to destruction as is the case now in nearly all electronics recycling legislation.
-              Recycling is not the most effective way to keep computers and other technology out of landfills. A more important goal for us at Hitech Electronic Waste Recycler India Private Limited is reuse. However, when electronics come into our receiving area that we can't grant or sell at a low cost in our ReUSE Store, they are sent to our recycling warehouse for dismantling. Almost all of the electronics deconstruction is done by workers - many of whom have come to Hitech Electronic Waste Recycler to receive job and/or social skills training.
+              <p className="fourth-description-recyc">
+              Hitech Electronic Waste Recycler India Private Limited focuses on promoting electronics reuse to refurbish and redistribute IT equipment to schools, nonprofits, and low-income families, creating local jobs and reducing landfill waste. When reuse isn’t possible, electronics are dismantled by trained workers in their recycling warehouse.
               </p>
             </div>
             <div className="fourth-right-content">
@@ -24,6 +25,10 @@ function RecyclerPage() {
             </div>
           </div>
         </div>
+        <div className="qna-section-contas">
+          
+        </div>
+        <Footer />
     </div>
   )
 }

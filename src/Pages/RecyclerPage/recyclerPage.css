@@ -1,3 +1,17 @@
+.recycler-outer-container{
+    background-color: #fffff4;
+}
+
 .fourth-description-recyc{
-    
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(78, 55, 55);
+    font-size: 12px;
+    max-width: 700px;
+}
+
+@media screen and (max-width: 800px){
+    .fourth-description-recyc{
+        text-align: justify;
+    }
 }

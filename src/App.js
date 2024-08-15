@@ -18,6 +18,7 @@ import NetworkingPage from './Pages/ProductsPage/NetworkingPage';
 import ProcessorPage from './Pages/ProductsPage/ProcessorPage';
 import PsuPage from './Pages/ProductsPage/PsuPage';
 import ServersPage from './Pages/ProductsPage/ServersPage';
+import IndividualProduct from './Pages/ProductsPage/IndividualProduct';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
         <Route path="/processor" element={<ProcessorPage />} />
         <Route path="/psu" element={<PsuPage />} />
         <Route path="/server" element={<ServersPage />} />
-        <Route path="/product/:slug"/>
+        <Route path="/product/:slug" element={<IndividualProduct />}/>
         <Route path="/service" element={<ServicePage />}/>
         <Route path="/recycler" element={<RecyclerPage />}/>
         <Route path="/contact" element={<ContactPage />}/>

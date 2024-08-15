@@ -46,7 +46,7 @@ function LaptopPage() {
                   {/* <div className="image-gradient-cover"></div> */}
                   <div className="bottom-details-wrapper">
                     <p className="product-name">{product.name}</p>
-                    <p className="product-price">Price {product.categories}</p>
+                    {/* <p className="product-price">Price {product.price}</p> */}
                   </div>
                 </div>
               </Link>

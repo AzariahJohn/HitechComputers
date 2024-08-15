@@ -9,6 +9,10 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: #fffff4;
+}
+
 /* General outer container for home page*/
 
 .scroll-snap-wrapper{
@@ -217,7 +221,7 @@ canvas{
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #fffff4;
   
     /* Center slide text vertically */
     display: flex;
@@ -405,7 +409,7 @@ canvas{
     padding: 30px;
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
 }
 
@@ -426,6 +430,8 @@ canvas{
 .fourth-description{
     margin-top: 20px;
     color: rgba(85, 17, 17, 0.646);
+    line-height: 20px;
+    font-size: 15px;
 }
 
 .fourth-container-img{

@@ -1,3 +1,7 @@
+.service-outer-container{
+    background-color: #fffff4;
+}
+
 .service-page-mods{
     display: flex;
     align-items: center;
