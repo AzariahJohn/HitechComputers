@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <div className="full-page-navbar">
-        <h1 className="logo">HCC</h1>
+        <img src="" alt="" className="logo" />
         <div className="nav-links-wraper">
           <p className="list-items"><Link to='/'>Home</Link></p>
           <p className="list-items"><Link to='/about'>About</Link></p>

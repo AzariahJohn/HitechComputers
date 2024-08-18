@@ -99,6 +99,14 @@ textarea:focus, input:focus{
     opacity: 0.5;
 }
 
+.product-first-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
 .image-gradient-cover{
     height: 100%;
     width: 100%;
@@ -156,6 +164,85 @@ textarea:focus, input:focus{
 
 .section-title{
     font-family: "poppins", sans-serif;
+}
+
+.ind-product-outer-div{
+    height: 100vh;
+}
+
+.ind-product-first-container{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ind-product-content-card{
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 90%;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.ind-product-content-wrapper{
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.ind-image-container-product{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.product-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ind-pro-modelnum{
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.ind-pro-brand{
+    font-family: "Poppins", sans-serif;
+}
+
+.ind-product-title{
+    margin: 20px 0px;
+    font-family: "Poppins", sans-serif;
+    line-height: 35px;
+}
+
+.ind-product-desc{
+    font-family: "Poppins", sans-serif;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.ind-bold{
+    font-weight: bold;
+}
+
+.ind-product-price{
+    background-color: rgb(82, 52, 52);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 800px){

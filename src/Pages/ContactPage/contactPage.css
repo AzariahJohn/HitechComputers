@@ -1,0 +1,50 @@
+.contact-outer-container{
+
+}
+
+.map-container{
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.google-forms-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px 30px 30px;
+}
+
+.address-container{
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.company-name-address{
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.address-of-company{
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.google-forms-iframe{
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.map-iframe-edit{
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

@@ -50,7 +50,7 @@ export default defineType({
     }),
     defineField({
       name: 'description',
-      title: 'Description',
+      title: 'Specifications',
       type: 'blockContent',
     }),
   ],

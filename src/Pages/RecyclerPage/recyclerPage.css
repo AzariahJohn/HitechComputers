@@ -10,6 +10,10 @@
     max-width: 700px;
 }
 
+.accordion-color{
+    background-color: #fffff4;
+}
+
 @media screen and (max-width: 800px){
     .fourth-description-recyc{
         text-align: justify;
