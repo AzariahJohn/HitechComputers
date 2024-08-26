@@ -27,6 +27,8 @@ import FourthImg from '../../Images/service.jpg'
 import Recovery from '../../Images/recovery.jpg'
 import Hardware from '../../Images/hardware.jpg'
 
+import Cluster from '../../Images/cluster.png'
+
 import Footer from '../../Components/Footer/Footer'
 import { Link } from 'react-router-dom'
 
@@ -42,16 +44,18 @@ function HomePage() {
   return (
     <div className='outer-container'>
         <Navbar />
+        <div className="brand-name-strip-container">
+          <h1 className="brand-name">HITECH COMPUTER CENTRE</h1>
+        </div>
         <div className="hero-container">
-          {/* <HeroSection /> */}
-          {/* <p className="hero-company-name">HiTech Computer Centere</p> */}
           <div className="hero-container-left">
+            {/* <h1 className="hero-company-name">HITECH COMPUTER CENTRE</h1> */}
             <h1 className="hero-text">Revitalize Your Tech, Premium Refurbished Laptops & Desktops.</h1>
             <p className="hero-paragraph">Discover high-performance, eco-friendly refurbished laptops and 
               desktops. Save money without compromising on quality. Upgrade your tech today</p>
             <div className="hero-button-container">
               <Link to='/products'><button className="hero-button">Explore Products</button></Link>
-              <button className="hero-button plain-btn">Learn More</button>
+              <Link to='/about'><button className="hero-button plain-btn">Learn More</button></Link>
             </div>
           </div>
           <div className="hero-container-right">
@@ -71,7 +75,7 @@ function HomePage() {
                 and highest quality.</p>
               </div>
               <div className="second-container-right-content lottie-container">
-                <img src={Hardware} alt="" className='second-image'/>
+                <img src={Cluster} alt="" className='second-image'/>
               </div>
             </div>
             <div className="second-container-sec-right reverse-content">
@@ -98,7 +102,7 @@ function HomePage() {
                 techniques are developed.</p>
               </div>
               <div className="second-container-right-content lottie-container">
-                <img src={Hardware} alt="" className='second-image'/>
+                <img src="https://t3.ftcdn.net/jpg/05/68/96/18/360_F_568961895_MN1FE24wtBvcgxml8rTCbJcKYmxu9bhH.jpg" alt="" className='second-image'/>
               </div>
             </div>
           </div>

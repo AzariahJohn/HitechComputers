@@ -1,5 +1,5 @@
 .products-outer-container{
-    background-color: #fffff4;
+    background-color: antiquewhite;
     padding: 0px 0px 20px 0px;
 }
 
@@ -123,6 +123,8 @@ textarea:focus, input:focus{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 .product-name,
@@ -143,6 +145,10 @@ textarea:focus, input:focus{
 
 .products-section-container{
     padding: 100px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product-section{
@@ -150,10 +156,11 @@ textarea:focus, input:focus{
     padding: 30px;
     margin: 20px 0px;
     height: 200px;
-    width: 100%;
+    width: 270px;
     border-radius: 10px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     transition: all 0.5s ease;
+    margin: 20px;
 }
 
 .product-section:hover{
@@ -164,6 +171,9 @@ textarea:focus, input:focus{
 
 .section-title{
     font-family: "poppins", sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    color: white;
 }
 
 .ind-product-outer-div{
@@ -247,4 +257,95 @@ textarea:focus, input:focus{
 
 @media screen and (max-width: 800px){
     
+}
+
+#first-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/desktop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/laptops.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#third-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/cables.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fourth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/monitors.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fifth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/network.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sixth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/harddisk.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seventh-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/processor.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eighth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://5.imimg.com/data5/SELLER/Default/2023/6/312866623/CQ/AK/BT/23462239/server-fibre-channel-card-hba-card-.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nineth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/memory.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tenth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/motherboard.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eleventh-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://serverdiskdrives.com/cdn/shop/articles/ASRock-Rack-3U8G-C612-Power-Supplies.jpg?v=1696383381');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#twelveth-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Images/CablesTwo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map-image{
+    height: 200px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
 }

@@ -13,9 +13,9 @@ function Footer() {
             <h1 className="footer-logo">HCC</h1>
             <div className="socials-container">
                 <div className="icon-wrapper-footer"><InstagramIcon style={{fill: "antiquewhite"}}/></div>
-                <div className="icon-wrapper-footer"><WhatsAppIcon style={{fill: "antiquewhite"}}/></div>
-                <div className="icon-wrapper-footer"><FacebookIcon style={{fill: "antiquewhite"}}/></div>
-                <div className="icon-wrapper-footer"><GoogleIcon style={{fill: "antiquewhite"}}/></div>
+                <a href="https://wa.me/919840889242"><div className="icon-wrapper-footer"><WhatsAppIcon style={{fill: "antiquewhite"}}/></div></a>
+                <a href="https://www.facebook.com/hitechcomputercentre/"><div className="icon-wrapper-footer"><FacebookIcon style={{fill: "antiquewhite"}}/></div></a>
+                <a href="https://maps.app.goo.gl/wk191Sg56x8Vq4U67"><div className="icon-wrapper-footer"><GoogleIcon style={{fill: "antiquewhite"}}/></div></a>
             </div>
         </div>
         <div className="coppyright">© HiTech Computer Center</div>

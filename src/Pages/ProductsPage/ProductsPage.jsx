@@ -137,62 +137,62 @@ function ProductsPage() {
       <Navbar />
       <div className="products-section-container">
       <Link to="/desktop">
-        <div className="product-section">
+        <div className="product-section" id='first-sec'>
           <h1 className="section-title">Desktops</h1>
         </div>
       </Link>
       <Link to="/laptop">
-        <div className="product-section">
+        <div className="product-section" id='second-sec'>
           <h1 className="section-title">Laptops and Notebooks</h1>
         </div>
       </Link>
       <Link to="/server">
-        <div className="product-section">
+        <div className="product-section" id='third-sec'>
           <h1 className="section-title">Servers</h1>
         </div>
       </Link>
       <Link to="/monitor">
-        <div className="product-section">
+        <div className="product-section" id='fourth-sec'>
           <h1 className="section-title">Monitors</h1>
         </div>
       </Link>
       <Link to="/networking">
-        <div className="product-section">
+        <div className="product-section" id='fifth-sec'>
           <h1 className="section-title">Networking</h1>
         </div>
       </Link>
       <Link to="/hard-disk">
-        <div className="product-section">
+        <div className="product-section" id='sixth-sec'>
           <h1 className="section-title">Server Hard Disk</h1>
         </div>
       </Link>
       <Link to="/processor">
-        <div className="product-section">
+        <div className="product-section" id='seventh-sec'>
           <h1 className="section-title">CPUs / Processors</h1>
         </div>
       </Link>
       <Link to="/interface">
-        <div className="product-section">
+        <div className="product-section" id='eighth-sec'>
           <h1 className="section-title">Interface</h1>
         </div>
       </Link>
       <Link to="/memory">
-        <div className="product-section">
+        <div className="product-section" id='nineth-sec'>
           <h1 className="section-title">Server Memory</h1>
         </div>
       </Link>
       <Link to="/motherboard">
-        <div className="product-section">
+        <div className="product-section" id='tenth-sec'>
           <h1 className="section-title">Server Motherboard</h1>
         </div>
       </Link>
       <Link to="/psu">
-        <div className="product-section">
+        <div className="product-section" id='eleventh-sec'>
           <h1 className="section-title">Server Powersupply</h1>
         </div>
       </Link>
       <Link to="/cables">
-        <div className="product-section">
+        <div className="product-section" id='twelveth-sec'>
           <h1 className="section-title">Cables</h1>
         </div>
       </Link>

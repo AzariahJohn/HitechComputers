@@ -35,8 +35,8 @@ const AccordionSummary = styled((props) => (
 ))(({ theme }) => ({
   backgroundColor:
     theme.palette.mode === 'dark'
-      ? '#fffff6'
-      : '#fffff6',
+      ? 'antiquewhite'
+      : 'antiquewhite',
   flexDirection: 'row-reverse',
   '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
     transform: 'rotate(90deg)',
@@ -53,7 +53,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 function RecyclerPage() {
 
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState('');
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
@@ -71,7 +71,7 @@ function RecyclerPage() {
               </p>
             </div>
             <div className="fourth-right-content">
-              <img src={FourthImg} alt="" className="fourth-container-img" />
+              <img src="https://t3.ftcdn.net/jpg/05/68/96/18/360_F_568961895_MN1FE24wtBvcgxml8rTCbJcKYmxu9bhH.jpg" alt="" className="fourth-container-img" />
             </div>
           </div>
         </div>

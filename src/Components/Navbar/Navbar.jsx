@@ -3,6 +3,7 @@ import './Navbar.css'
 import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
 import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import { Link } from "react-router-dom";
+import Logo from '../../Images/logo.png'
 
 function Navbar() {
 
@@ -15,7 +16,7 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <div className="full-page-navbar">
-        <img src="" alt="" className="logo" />
+        <img src={Logo} alt="" className="logo" />
         <div className="nav-links-wraper">
           <p className="list-items"><Link to='/'>Home</Link></p>
           <p className="list-items"><Link to='/about'>About</Link></p>
@@ -45,6 +46,9 @@ function Navbar() {
           </div>
         </div>
       </div>
+      {/* <div className="logo-full-form-container">
+        <p className="logo-fullform">HiTech Computer Center</p>
+      </div> */}
     </div>
   )
 }

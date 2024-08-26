@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom'
 import { client } from '../../lib/sanity'
 import Hardware from '../../Images/hardware.jpg'
 import Footer from '../../Components/Footer/Footer'
+import { PortableText } from '@portabletext/react'
 
 function IndividualProduct() {
 
@@ -55,7 +56,9 @@ function IndividualProduct() {
                             </div>
                             <div className="ind-right-content"> 
                                 <h1 className="ind-product-title">{singleProduct.name}</h1>
-                                <p className='ind-product-desc'>{singleProduct.description[0].children[1].text}</p>
+                                <p className='ind-product-desc'>
+                                    <PortableText value={singleProduct.description}></PortableText>
+                                </p>
                                 <p className="ind-pro-modelnum"><span className="ind-bold">Model Number: </span>{singleProduct.modelnum}</p>
                                 <p className="ind-pro-brand"><span className="ind-bold">Brand: </span>{singleProduct.brand.brandname}</p>
                                 <div className="ind-product-price">₹ {singleProduct.price}</div>

@@ -17,19 +17,20 @@ function ContactPage() {
       </div>
       <div className="map-container">
         <div className="address-container">
-          <div className='map-inner-container'>
-            <iframe width="100%" className='map-iframe-edit' height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=ground%20floor,%205TH,%20FLOOR,CITY%20CENTRE%20PLAZA%203,%20Mount%20Road,%20Chennai,%20Tamil%20Nadu%20600002+(HiTech%20Computer%20center)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a>
-            </iframe>
-          </div>
+          <a href="https://maps.app.goo.gl/NJS7q4jaZRs35Xzy9">
+            <div className='map-inner-container'>
+              <img src="https://storage.googleapis.com/lb-images-asia/in/2245103/staticmap.png_webp.webp" alt="" className='map-image'/>
+            </div>
+          </a>
           <h1 className="company-name-address">HITECH COMPUTER CENTRE</h1>
-          <p className="address-of-company">5th Floor, City Centre Plaza,
+          <p className="address-of-company">Ground Floor, City Centre Plaza,
             No.3,Mount Road, Chennai - 600 002.
           </p>   
           <p className="phone-num-addr">
             <span className="ind-bold">Contact No: </span> 044-28549242,28419941
           </p> 
           <p className="phone-num-addr">
-            <span className="ind-bold">Mobile: </span> 9444049242,9600144455
+            <span className="ind-bold">Mobile: </span> 9444049242, 9840889242
           </p>
           <p className="phone-num-addr">
             <span className="ind-bold">Mail: </span> hitech@hitechcomputers.in
@@ -38,7 +39,7 @@ function ContactPage() {
             <span className="ind-bold">Mail: </span>Sales@hitechcomputers.in
           </p>
           <p className="phone-num-addr">
-            <span className="ind-bold">Web: </span> www.hitechcomputercentre.com
+            <span className="ind-bold">Web: </span> www.hitechcomputers.in
           </p>
         </div>
       </div>

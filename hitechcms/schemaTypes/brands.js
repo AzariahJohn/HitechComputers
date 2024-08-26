@@ -9,6 +9,7 @@ export default defineType({
       name: 'brandname',
       title: 'Brand Name',
       type: 'string',
+      validation: (Rule) => Rule.required()
     }),
   ],
 })

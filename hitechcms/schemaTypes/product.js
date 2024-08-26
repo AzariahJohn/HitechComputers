@@ -7,8 +7,15 @@ export default defineType({
   fields: [
     defineField({
       name: 'name',
-      title: 'Laptop Name',
+      title: 'Product Name',
       type: 'string',
+      validation: (Rule) => Rule.required()
+    }),
+    defineField({
+      name: 'modelnum',
+      title: 'Model Number',
+      type: 'string',
+      validation: (Rule) => Rule.required()
     }),
     defineField({
       name: "slug",
@@ -17,17 +24,14 @@ export default defineType({
         source: "name",
         maxLength: 50,
       },
-    }),
-    defineField({
-      name: 'modelnum',
-      title: 'Model Number',
-      type: 'string',
+      validation: (Rule) => Rule.required()
     }),
     defineField({
       name: 'brand',
       title: 'Brand',
       type: 'reference',
       to: {type: 'brands'},
+      validation: (Rule) => Rule.required()
     }),
     defineField({
       name: 'mainImage',
@@ -36,22 +40,26 @@ export default defineType({
       options: {
         hotspot: true,
       },
+      validation: (Rule) => Rule.required()
     }),
     defineField({
       name: 'categories',
       title: 'Categories',
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
+      validation: (Rule) => Rule.required()
     }),
     defineField({
       name: 'price',
       title: 'Price',
       type: 'number',
+      validation: (Rule) => Rule.required()
     }),
     defineField({
       name: 'description',
       title: 'Specifications',
       type: 'blockContent',
+      validation: (Rule) => Rule.required()
     }),
   ],
 

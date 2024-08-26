@@ -22,7 +22,6 @@ import IndividualProduct from './Pages/ProductsPage/IndividualProduct';
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
@@ -44,7 +43,6 @@ function App() {
         <Route path="/recycler" element={<RecyclerPage />}/>
         <Route path="/contact" element={<ContactPage />}/>
       </Routes>
-    </BrowserRouter>
   );
 }
 
